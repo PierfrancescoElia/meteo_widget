@@ -1,6 +1,6 @@
 function reloadMeteo() {
         var richiesta = $.ajax({
-                            url: "http://olivetti.altervista.org/script/meteo.php",
+                            url: "meteo.php",
                           });
  
         richiesta.done(function(data) {
